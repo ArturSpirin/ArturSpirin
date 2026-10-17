@@ -1,129 +1,127 @@
-👋 Hey, I'm Artur Spirin
+# Artur Spirin
+### AI Systems Engineer · Agent Orchestration · Developer Tools
 
-Software Engineer · AI Systems Builder · Automation Architect
+Building intelligent systems, developer tooling, and automation infrastructure.
 
-I build software, developer tools, and intelligent systems — from test automation frameworks to agentic harnesses, AI agent orchestrators, and memory/indexing architectures.
+I’m a software engineer with a background in test automation, now focused on **AI agent harnesses, agent orchestration, memory optimization, and codebase indexing**. I build systems from the ground up to help agents understand complex codebases, manage context, and execute meaningful engineering work.
 
-My background is in test automation and software engineering. These days, I'm increasingly focused on building AI systems from the ground up: coordinating agents, designing reliable execution workflows, optimizing memory, and making large codebases easier for AI to understand and navigate.
-
-I believe the best tools don't just automate work — they make complex work easier to reason about.
-
-🧠 Current Focus: AI Agent Infrastructure
-
-I'm exploring and building the infrastructure that makes AI agents more capable, reliable, and useful in real engineering workflows.
-
-🤖 Agentic Harnesses — building the execution layers, tools, and workflows that let AI agents get real work done
-
-🧩 Agent Orchestration — designing systems that coordinate agents, delegate tasks, and manage complex workflows
-
-🧠 Agent Memory — improving how agents retain, retrieve, and use relevant context
-
-🔎 Indexing & Retrieval — building ways to navigate large codebases and connect files, symbols, and dependencies
-
-🏗️ Context Engineering — helping agents understand the right information without drowning in irrelevant context
-
-⚙️ AI-Assisted Engineering — applying agents to software development, testing, and developer productivity
-
-My goal is to build systems that help agents move beyond generating code toward understanding systems, executing plans, and completing meaningful engineering work.
-
-🚀 Projects
-
-🧪 Test Junkie
-
-Open-source Python testing tools for real-world automation.
-
-A project I originally built in 2018 and am actively developing again.
-
-🐍 Python-based test runner
-
-⚙️ Configurable test execution
-
-📊 Test reporting and visibility
-
-🛠️ Built around practical software testing challenges
-
-Explore Test Junkie →
-
-🎮 pyPS4Controller
-
-A lightweight Python library for PlayStation 4 controller events on Linux.
-
-A reusable Python module designed to make controller input accessible through simple event hooks, without additional Python dependencies.
-
-🐍 Python library
-
-🎮 Controller event handling and callbacks
-
-🪶 Lightweight implementation
-
-🌍 Open-source project used by other developers
-
-View Repository → · PyPI →
-
-🛠️ Engineering Toolkit
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/AI_Agents-6C5CE7?style=for-the-badge" alt="AI Agents" />
-  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+<p align="center">
+  <a href="https://www.test-junkie.com/"><img src="https://img.shields.io/badge/Test_Junkie-Open_Source-6C5CE7?style=for-the-badge" alt="Test Junkie" /></a>
+  <a href="https://github.com/ArturSpirin/pyPS4Controller"><img src="https://img.shields.io/badge/pyPS4Controller-Python_Library-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="pyPS4Controller" /></a>
 </p>
 
-Core areas
+---
 
-Domain
+## 🧠 What I'm Working On
 
-Focus
+<table>
+<tr>
+<td width="50%" valign="top">
 
-AI Engineering
+### 🤖 Agentic Harnesses
+Building execution environments, tools, and workflows that let AI agents perform real engineering tasks.
 
-Agent harnesses, orchestration, tool execution
+### 🧩 Agent Orchestration
+Designing orchestrators that coordinate agents, delegate work, and manage multi-step workflows.
 
-Memory Systems
+### 🧠 Agent Memory
+Optimizing how agents store, retrieve, and use context across tasks and sessions.
 
-Context management, memory optimization, retrieval
+</td>
+<td width="50%" valign="top">
 
-Code Intelligence
+### 🔎 Codebase Intelligence
+Indexing files, symbols, and dependencies to make large repositories easier for agents to understand.
 
-Codebase indexing, dependency mapping, navigation
+### 🏗️ Context Engineering
+Delivering relevant information while reducing noise and unnecessary context.
 
-Software Engineering
+### ⚙️ AI Engineering
+Applying agentic systems to software development, testing, and developer productivity.
 
-Python, architecture, reusable libraries
+</td>
+</tr>
+</table>
 
-Quality Engineering
+---
 
-Test automation, framework design, CI/CD
+## 🚀 Featured Projects
 
-Developer Productivity
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Automation, tooling, AI-assisted workflows
+<h3>🧪 Test Junkie</h3>
 
-📈 GitHub Activity
+**Open-source Python test runner**
+
+Originally built in 2018, now actively evolving.
+
+- Configurable test execution
+- Test automation tooling
+- Reporting and result visibility
+- Built around real-world QA challenges
+
+<a href="https://www.test-junkie.com/"><strong>Explore Test Junkie →</strong></a>
+
+</td>
+<td width="50%" valign="top">
+
+<h3>🎮 pyPS4Controller</h3>
+
+**Python library for PS4 controller input on Linux**
+
+A lightweight library for handling controller events through Python callbacks.
+
+- Controller event handling
+- Callback-based input
+- Lightweight implementation
+- Open-source Python tooling
+
+<a href="https://github.com/ArturSpirin/pyPS4Controller"><strong>View Repository →</strong></a>
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Technologies & Engineering
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/AI_Agents-6C5CE7?style=flat-square" alt="AI Agents" />
+  <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" alt="Selenium" />
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+</p>
+
+| Area | Focus |
+|:--|:--|
+| **AI Systems** | Agent harnesses, orchestration, tool execution |
+| **Memory & Retrieval** | Context management, indexing, information retrieval |
+| **Code Intelligence** | Repository indexing, dependency mapping, navigation |
+| **Software Engineering** | Python, architecture, reusable libraries |
+| **Quality Engineering** | Test automation, CI/CD, test infrastructure |
+
+---
+
+## 📊 GitHub Activity
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=ArturSpirin&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArturSpirin&layout=compact&hide_border=true&theme=github_dark" alt="Most used programming languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArturSpirin&layout=compact&hide_border=true&theme=github_dark" alt="Most used languages" />
 </p>
+
+---
+
+## 🔗 Connect & Explore
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ArturSpirin&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" />
-</p>
-
-🌐 Connect
-
-<p align="left">
-  <a href="https://github.com/ArturSpirin">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://www.test-junkie.com/">
-    <img src="https://img.shields.io/badge/Test_Junkie-6C5CE7?style=for-the-badge" alt="Test Junkie" />
-  </a>
-  <a href="https://pypi.org/project/pyPS4Controller/">
-    <img src="https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI" />
-  </a>
+  <a href="https://github.com/ArturSpirin"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.test-junkie.com/"><img src="https://img.shields.io/badge/Test_Junkie-6C5CE7?style=for-the-badge" alt="Test Junkie" /></a>
+  <a href="https://pypi.org/project/pyPS4Controller/"><img src="https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI" /></a>
 </p>
 
 <p align="center">
