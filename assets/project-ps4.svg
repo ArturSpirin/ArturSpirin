@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 200" width="490" height="200" role="img" aria-label="pyPS4Controller: controller event hooks for Linux in Python">
+  <defs>
+    <style>
+      .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .btn{fill:#161b22;stroke:#30363d;stroke-width:1.5}
+      .p{animation:press 4s infinite}
+      .p2{animation-delay:1s}.p3{animation-delay:2s}.p4{animation-delay:3s}
+      @keyframes press{0%,8%,100%{fill:#161b22}2%,6%{fill:#22d3ee}}
+      .ev{opacity:0;animation:ev 4s infinite}
+      .e2{animation-delay:1s}.e3{animation-delay:2s}.e4{animation-delay:3s}
+      @keyframes ev{0%{opacity:0}2%{opacity:1}22%{opacity:1}25%{opacity:0}100%{opacity:0}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="488" height="198" rx="14" fill="#0d1117" stroke="#21262d" stroke-width="1.5"/>
+
+  <!-- generic gamepad -->
+  <path d="M60 70 Q60 52 82 52 L178 52 Q200 52 200 70 L212 130 Q216 152 196 152 Q182 152 172 132 L88 132 Q78 152 64 152 Q44 152 48 130 Z" fill="#11161f" stroke="#30363d" stroke-width="1.5"/>
+  <g class="btn">
+    <rect x="80" y="82" width="12" height="32" rx="2"/>
+    <rect x="70" y="92" width="32" height="12" rx="2"/>
+  </g>
+  <rect x="80" y="82" width="12" height="12" rx="2" class="p p3" style="stroke:none"/>
+  <g>
+    <circle cx="170" cy="82" r="7" class="btn p p1"/>
+    <circle cx="184" cy="96" r="7" class="btn p p2"/>
+    <circle cx="170" cy="110" r="7" class="btn p p4"/>
+    <circle cx="156" cy="96" r="7" class="btn"/>
+  </g>
+  <circle cx="112" cy="118" r="9" class="btn"/><circle cx="148" cy="118" r="9" class="btn"/>
+
+  <!-- event log -->
+  <rect x="236" y="52" width="230" height="100" rx="8" fill="#010409" stroke="#21262d"/>
+  <g class="mono" font-size="12.5">
+    <text x="250" y="76" fill="#7d8590">def on_x_press(self):</text>
+    <text x="250" y="98" class="ev e1" fill="#22d3ee">→ on_x_press()</text>
+    <text x="250" y="98" class="ev e2" fill="#22d3ee">→ on_circle_press()</text>
+    <text x="250" y="98" class="ev e3" fill="#22d3ee">→ on_up_arrow_press()</text>
+    <text x="250" y="98" class="ev e4" fill="#22d3ee">→ on_square_press()</text>
+    <text x="250" y="122" fill="#545d68">0 dependencies · &lt;30 KB</text>
+    <text x="250" y="140" fill="#545d68">linux · raspberry pi</text>
+  </g>
+
+  <text x="24" y="34" class="sans" font-size="19" font-weight="600" fill="#e6edf3">pyPS4Controller</text>
+  <text x="466" y="34" class="mono" font-size="12" fill="#22d3ee" text-anchor="end">python</text>
+  <text x="24" y="180" class="sans" font-size="14" fill="#8b949e">Hook any controller event to a Python callback.</text>
+</svg>

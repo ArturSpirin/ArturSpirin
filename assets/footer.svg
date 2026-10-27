@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 90" width="1000" height="90" role="img" aria-label="Agents that can be tested can be trusted">
+  <defs>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#22d3ee"/>
+      <stop offset=".7" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .pulse{stroke-dasharray:1100;stroke-dashoffset:1100;animation:draw 4s ease-in-out infinite}
+      @keyframes draw{0%{stroke-dashoffset:1100}50%{stroke-dashoffset:0}100%{stroke-dashoffset:-1100}}
+    </style>
+  </defs>
+  <path d="M0 34 H400 L420 34 L432 10 L448 58 L462 22 L472 34 H1000" fill="none" stroke="#21262d" stroke-width="1.5"/>
+  <path d="M0 34 H400 L420 34 L432 10 L448 58 L462 22 L472 34 H1000" fill="none" stroke="url(#fade)" stroke-width="2" class="pulse"/>
+  <text x="500" y="80" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#7d8590">// agents that can be tested can be trusted</text>
+</svg>

@@ -1,129 +1,56 @@
-# Artur Spirin
-### AI Systems Engineer · Agent Orchestration · Developer Tools
-
-Building intelligent systems, developer tooling, and automation infrastructure.
-
-I’m a software engineer with a background in test automation, now focused on **AI agent harnesses, agent orchestration, memory optimization, and codebase indexing**. I build systems from the ground up to help agents understand complex codebases, manage context, and execute meaningful engineering work.
-
 <p align="center">
-  <a href="https://www.test-junkie.com/"><img src="https://img.shields.io/badge/Test_Junkie-Open_Source-6C5CE7?style=for-the-badge" alt="Test Junkie" /></a>
-  <a href="https://github.com/ArturSpirin/pyPS4Controller"><img src="https://img.shields.io/badge/pyPS4Controller-Python_Library-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="pyPS4Controller" /></a>
+  <img src="assets/header.svg" width="100%" alt="Artur Spirin — AI systems engineer building agent harnesses, orchestration, and context">
 </p>
 
----
+<p align="center">
+  <a href="https://www.youtube.com/@ArturSpirin"><img src="https://img.shields.io/badge/YouTube-@ArturSpirin-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0d1117" alt="YouTube"></a>
+  <a href="https://www.linkedin.com/in/arturspirin"><img src="https://img.shields.io/badge/LinkedIn-arturspirin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn"></a>
+  <a href="https://www.test-junkie.com/"><img src="https://img.shields.io/badge/Docs-test--junkie.com-a78bfa?style=for-the-badge&labelColor=0d1117" alt="Test Junkie docs"></a>
+  <a href="https://www.patreon.com/join/arturspirin"><img src="https://img.shields.io/badge/Patreon-support-F96854?style=for-the-badge&logo=patreon&logoColor=white&labelColor=0d1117" alt="Patreon"></a>
+</p>
 
-## 🧠 What I'm Working On
+<br>
+
+<img src="assets/focus.svg" width="100%" alt="Focus: harnesses, orchestration, context and memory">
+
+<p align="center">
+  <sub><b>Currently building</b> · Work Cortex, a personal agent orchestration system <i>(private, phase 1)</i></sub>
+</p>
+
+<br>
 
 <table>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 Agentic Harnesses
-Building execution environments, tools, and workflows that let AI agents perform real engineering tasks.
-
-### 🧩 Agent Orchestration
-Designing orchestrators that coordinate agents, delegate work, and manage multi-step workflows.
-
-### 🧠 Agent Memory
-Optimizing how agents store, retrieve, and use context across tasks and sessions.
-
-</td>
-<td width="50%" valign="top">
-
-### 🔎 Codebase Intelligence
-Indexing files, symbols, and dependencies to make large repositories easier for agents to understand.
-
-### 🏗️ Context Engineering
-Delivering relevant information while reducing noise and unnecessary context.
-
-### ⚙️ AI Engineering
-Applying agentic systems to software development, testing, and developer productivity.
-
-</td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/ArturSpirin/pyPS4Controller"><img src="assets/project-ps4.svg" width="100%" alt="pyPS4Controller"></a>
+      <p align="center">
+        <a href="https://github.com/ArturSpirin/pyPS4Controller/stargazers"><img src="https://img.shields.io/github/stars/ArturSpirin/pyPS4Controller?style=flat-square&logo=github&label=stars&labelColor=0d1117&color=22d3ee" alt="stars"></a>
+        <a href="https://github.com/ArturSpirin/pyPS4Controller/network/members"><img src="https://img.shields.io/github/forks/ArturSpirin/pyPS4Controller?style=flat-square&label=forks&labelColor=0d1117&color=22d3ee" alt="forks"></a>
+        <a href="https://pypi.org/project/pyPS4Controller/"><img src="https://img.shields.io/pypi/v/pyPS4Controller?style=flat-square&logo=pypi&logoColor=white&label=pypi&labelColor=0d1117&color=22d3ee" alt="pypi"></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/ArturSpirin/test_junkie"><img src="assets/project-testjunkie.svg" width="100%" alt="Test Junkie"></a>
+      <p align="center">
+        <a href="https://github.com/ArturSpirin/test_junkie/stargazers"><img src="https://img.shields.io/github/stars/ArturSpirin/test_junkie?style=flat-square&logo=github&label=stars&labelColor=0d1117&color=a78bfa" alt="stars"></a>
+        <a href="https://github.com/ArturSpirin/test_junkie/network/members"><img src="https://img.shields.io/github/forks/ArturSpirin/test_junkie?style=flat-square&label=forks&labelColor=0d1117&color=a78bfa" alt="forks"></a>
+        <a href="https://www.test-junkie.com/"><img src="https://img.shields.io/badge/docs-test--junkie.com-a78bfa?style=flat-square&labelColor=0d1117" alt="docs"></a>
+      </p>
+    </td>
+  </tr>
 </table>
 
----
+### Teaching
 
-## 🚀 Featured Projects
+Companion code for my [YouTube](https://www.youtube.com/@ArturSpirin) tutorials on test automation:
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h3>🧪 Test Junkie</h3>
-
-**Open-source Python test runner**
-
-Originally built in 2018, now actively evolving.
-
-- Configurable test execution
-- Test automation tooling
-- Reporting and result visibility
-- Built around real-world QA challenges
-
-<a href="https://www.test-junkie.com/"><strong>Explore Test Junkie →</strong></a>
-
-</td>
-<td width="50%" valign="top">
-
-<h3>🎮 pyPS4Controller</h3>
-
-**Python library for PS4 controller input on Linux**
-
-A lightweight library for handling controller events through Python callbacks.
-
-- Controller event handling
-- Callback-based input
-- Lightweight implementation
-- Open-source Python tooling
-
-<a href="https://github.com/ArturSpirin/pyPS4Controller"><strong>View Repository →</strong></a>
-
-</td>
-</tr>
-</table>
-
----
-
-## 🛠️ Technologies & Engineering
+| Repo | What it covers | |
+|:--|:--|:--|
+| [YouTube-Appium-Framework](https://github.com/ArturSpirin/YouTube-Appium-Framework) | Building a mobile automation framework in Java | <img src="https://img.shields.io/github/stars/ArturSpirin/YouTube-Appium-Framework?style=flat-square&label=★&labelColor=0d1117&color=3fb950" alt="stars"> |
+| [YouTube-WebDriver-Tutorials](https://github.com/ArturSpirin/YouTube-WebDriver-Tutorials) | Selenium WebDriver with Python, step by step | <img src="https://img.shields.io/github/stars/ArturSpirin/YouTube-WebDriver-Tutorials?style=flat-square&label=★&labelColor=0d1117&color=3fb950" alt="stars"> |
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/AI_Agents-6C5CE7?style=flat-square" alt="AI Agents" />
-  <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" alt="Selenium" />
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://skillicons.dev/icons?i=python,java,linux,jenkins,git,docker&theme=dark" alt="Python, Java, Linux, Jenkins, Git, Docker">
 </p>
 
-| Area | Focus |
-|:--|:--|
-| **AI Systems** | Agent harnesses, orchestration, tool execution |
-| **Memory & Retrieval** | Context management, indexing, information retrieval |
-| **Code Intelligence** | Repository indexing, dependency mapping, navigation |
-| **Software Engineering** | Python, architecture, reusable libraries |
-| **Quality Engineering** | Test automation, CI/CD, test infrastructure |
-
----
-
-## 📊 GitHub Activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ArturSpirin&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArturSpirin&layout=compact&hide_border=true&theme=github_dark" alt="Most used languages" />
-</p>
-
----
-
-## 🔗 Connect & Explore
-
-<p align="center">
-  <a href="https://github.com/ArturSpirin"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://www.test-junkie.com/"><img src="https://img.shields.io/badge/Test_Junkie-6C5CE7?style=for-the-badge" alt="Test Junkie" /></a>
-  <a href="https://pypi.org/project/pyPS4Controller/"><img src="https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI" /></a>
-</p>
-
-<p align="center">
-  <i>Build systems. Empower agents. Automate the impossible.</i>
-</p>
+<img src="assets/footer.svg" width="100%" alt="Agents that can be tested can be trusted">
