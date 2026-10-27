@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 200" width="490" height="200" role="img" aria-label="Test Junkie: configurable Python test framework">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1c2633" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="80%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#8b7cf6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#8b7cf6" stop-opacity="0"/>
+    </radialGradient>
+
+    <style>
+      .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .bar{transform-box:fill-box;transform-origin:left;animation:fill 5s ease-out infinite}
+      .b2{animation-delay:.4s}.b3{animation-delay:.8s}.b4{animation-delay:1.2s}
+      @keyframes fill{0%{transform:scaleX(0)}35%{transform:scaleX(1)}90%{transform:scaleX(1);opacity:1}100%{transform:scaleX(1);opacity:0}}
+      .ok{opacity:0;animation:ok 5s infinite}
+      .o2{animation-delay:.4s}.o3{animation-delay:.8s}.o4{animation-delay:1.2s}
+      @keyframes ok{0%,34%{opacity:0}38%,90%{opacity:1}100%{opacity:0}}
+    </style>
+  </defs>
+  <rect width="490" height="200" rx="18" fill="#0a0e14"/>
+  <rect width="490" height="200" rx="18" fill="url(#grid)"/>
+  <rect width="490" height="200" rx="18" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="489" height="199" rx="18" fill="none" stroke="#21262d"/>
+
+  <text x="24" y="34" class="sans" font-size="19" font-weight="600" fill="#e6edf3">Test Junkie</text>
+  <text x="466" y="34" class="mono" font-size="12" fill="#a78bfa" text-anchor="end">python · since 2018</text>
+
+  <g class="mono" font-size="12.5">
+    <text x="24" y="66" fill="#c9d1d9">suite.Login</text>
+    <text x="24" y="92" fill="#c9d1d9">suite.Checkout</text>
+    <text x="24" y="118" fill="#c9d1d9">suite.Search</text>
+    <text x="24" y="144" fill="#c9d1d9">suite.API</text>
+  </g>
+  <g>
+    <rect x="148" y="56" width="250" height="12" rx="6" fill="#161b22"/>
+    <rect x="148" y="82" width="250" height="12" rx="6" fill="#161b22"/>
+    <rect x="148" y="108" width="250" height="12" rx="6" fill="#161b22"/>
+    <rect x="148" y="134" width="250" height="12" rx="6" fill="#161b22"/>
+  </g>
+  <g>
+    <rect x="148" y="56" width="250" height="12" rx="6" fill="#a78bfa" class="bar b1"/>
+    <rect x="148" y="82" width="250" height="12" rx="6" fill="#a78bfa" class="bar b2"/>
+    <rect x="148" y="108" width="250" height="12" rx="6" fill="#a78bfa" class="bar b3"/>
+    <rect x="148" y="134" width="250" height="12" rx="6" fill="#a78bfa" class="bar b4"/>
+  </g>
+  <g class="mono" font-size="12.5" fill="#3fb950">
+    <text x="410" y="66" class="ok o1">✓ 12</text>
+    <text x="410" y="92" class="ok o2">✓ 31</text>
+    <text x="410" y="118" class="ok o3">✓ 18</text>
+    <text x="410" y="144" class="ok o4">✓ 40</text>
+  </g>
+  <text x="24" y="180" class="sans" font-size="14" fill="#8b949e">Parallel runs, retries, tagging, and built-in reporting.</text>
+</svg>

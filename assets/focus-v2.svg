@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 290" width="1000" height="290" role="img" aria-label="Focus areas: harnesses, orchestration, context and memory">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1c2633" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#8b7cf6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#8b7cf6" stop-opacity="0"/>
+    </radialGradient>
+
+    <style>
+      .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .card{fill:#0d1117;stroke:#21262d;stroke-width:1.5}
+      .t{fill:#e6edf3;font-size:21px;font-weight:600}
+      .d{fill:#8b949e;font-size:14px}
+      .ln{opacity:0;animation:type 6s infinite}
+      .l2{animation-delay:.6s}.l3{animation-delay:1.2s}.l4{animation-delay:1.8s}
+      @keyframes type{0%{opacity:0}4%{opacity:1}85%{opacity:1}92%{opacity:0}100%{opacity:0}}
+      .flow{stroke-dasharray:3 7;animation:dash 1.4s linear infinite}
+      @keyframes dash{to{stroke-dashoffset:-20}}
+      .scan{transform-box:fill-box;animation:scan 3s ease-in-out infinite}
+      @keyframes scan{0%,100%{transform:translateY(0)}50%{transform:translateY(54px)}}
+      .hit{animation:hit 3s ease-in-out infinite}
+      @keyframes hit{0%,40%,60%,100%{fill:#161b22}50%{fill:#0f3b2a}}
+    </style>
+    <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+    <linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+    <linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="#3fb950"/><stop offset="1" stop-color="#3fb950" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1000" height="290" rx="18" fill="#0a0e14"/>
+  <rect width="1000" height="290" rx="18" fill="url(#grid)"/>
+  <rect width="1000" height="290" rx="18" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="999" height="289" rx="18" fill="none" stroke="#21262d"/>
+  <g transform="translate(24 20) scale(0.952)">
+
+  <!-- card 1: harnesses -->
+  <rect x="2" y="2" width="318" height="246" rx="14" class="card"/>
+  <rect x="2" y="2" width="318" height="3" rx="1.5" fill="url(#g1)"/>
+  <rect x="26" y="26" width="270" height="96" rx="8" fill="#010409" stroke="#21262d"/>
+  <g class="mono" font-size="12">
+    <text x="40" y="50" class="ln l1" fill="#7d8590">$ agent run --task fix-bug</text>
+    <text x="40" y="70" class="ln l2" fill="#c9d1d9">  edit  src/parser.py</text>
+    <text x="40" y="90" class="ln l3" fill="#c9d1d9">  run   pytest -q</text>
+    <text x="40" y="110" class="ln l4" fill="#3fb950">  ✓ 142 passed  verified</text>
+  </g>
+  <text x="26" y="160" class="sans t">Harnesses</text>
+  <text x="26" y="186" class="sans d">Execution environments and feedback</text>
+  <text x="26" y="206" class="sans d">loops that let agents do real work</text>
+  <text x="26" y="226" class="sans d">and prove it.</text>
+
+  <!-- card 2: orchestration -->
+  <rect x="341" y="2" width="318" height="246" rx="14" class="card"/>
+  <rect x="341" y="2" width="318" height="3" rx="1.5" fill="url(#g2)"/>
+  <g stroke="#30363d" stroke-width="1.5">
+    <line x1="500" y1="74" x2="410" y2="44"/><line x1="500" y1="74" x2="410" y2="104"/>
+    <line x1="500" y1="74" x2="590" y2="44"/><line x1="500" y1="74" x2="590" y2="104"/>
+  </g>
+  <g stroke="#a78bfa" stroke-width="1.5" class="flow">
+    <line x1="500" y1="74" x2="410" y2="44"/><line x1="500" y1="74" x2="410" y2="104"/>
+    <line x1="500" y1="74" x2="590" y2="44"/><line x1="500" y1="74" x2="590" y2="104"/>
+  </g>
+  <circle cx="500" cy="74" r="20" fill="#151026" stroke="#a78bfa" stroke-width="2">
+    <animate attributeName="stroke-width" values="2;4;2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <g fill="#161b22" stroke="#30363d" stroke-width="1.5">
+    <circle cx="410" cy="44" r="13"/><circle cx="410" cy="104" r="13"/>
+    <circle cx="590" cy="44" r="13"/><circle cx="590" cy="104" r="13"/>
+  </g>
+  <g fill="#a78bfa">
+    <circle cx="410" cy="44" r="4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="590" cy="44" r="4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin=".5s" repeatCount="indefinite"/></circle>
+    <circle cx="590" cy="104" r="4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="410" cy="104" r="4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="1.5s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="365" y="160" class="sans t">Orchestration</text>
+  <text x="365" y="186" class="sans d">Coordinating agents: delegation,</text>
+  <text x="365" y="206" class="sans d">decomposition, and keeping long</text>
+  <text x="365" y="226" class="sans d">workflows on track.</text>
+
+  <!-- card 3: context & memory -->
+  <rect x="680" y="2" width="318" height="246" rx="14" class="card"/>
+  <rect x="680" y="2" width="318" height="3" rx="1.5" fill="url(#g3)"/>
+  <g stroke="#30363d" stroke-width="1">
+    <rect x="704" y="28" width="270" height="16" rx="4" fill="#161b22"/>
+    <rect x="704" y="50" width="270" height="16" rx="4" fill="#161b22"/>
+    <rect x="704" y="72" width="270" height="16" rx="4" class="hit"/>
+    <rect x="704" y="94" width="270" height="16" rx="4" fill="#161b22"/>
+  </g>
+  <g fill="#30363d">
+    <rect x="714" y="34" width="90" height="4" rx="2"/><rect x="714" y="56" width="140" height="4" rx="2"/>
+    <rect x="714" y="78" width="110" height="4" rx="2" fill="#3fb950"/><rect x="714" y="100" width="70" height="4" rx="2"/>
+  </g>
+  <rect x="700" y="26" width="278" height="20" rx="5" fill="none" stroke="#3fb950" stroke-width="1.5" class="scan"/>
+  <text x="704" y="160" class="sans t">Context &amp; memory</text>
+  <text x="704" y="186" class="sans d">Indexing, retrieval, and memory that</text>
+  <text x="704" y="206" class="sans d">give agents the right information</text>
+  <text x="704" y="226" class="sans d">and leave out the noise.</text>
+  </g>
+</svg>
