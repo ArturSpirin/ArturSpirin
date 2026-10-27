@@ -1,5 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 200" width="490" height="200" role="img" aria-label="pyPS4Controller: controller event hooks for Linux in Python">
   <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1c2633" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="20%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#8b7cf6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#8b7cf6" stop-opacity="0"/>
+    </radialGradient>
+
     <style>
       .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
       .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
@@ -12,7 +20,10 @@
       @keyframes ev{0%{opacity:0}2%{opacity:1}22%{opacity:1}25%{opacity:0}100%{opacity:0}}
     </style>
   </defs>
-  <rect x="1" y="1" width="488" height="198" rx="14" fill="#0d1117" stroke="#21262d" stroke-width="1.5"/>
+  <rect width="490" height="200" rx="18" fill="#0a0e14"/>
+  <rect width="490" height="200" rx="18" fill="url(#grid)"/>
+  <rect width="490" height="200" rx="18" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="489" height="199" rx="18" fill="none" stroke="#21262d"/>
 
   <!-- generic gamepad -->
   <path d="M60 70 Q60 52 82 52 L178 52 Q200 52 200 70 L212 130 Q216 152 196 152 Q182 152 172 132 L88 132 Q78 152 64 152 Q44 152 48 130 Z" fill="#11161f" stroke="#30363d" stroke-width="1.5"/>

@@ -1,5 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 200" width="490" height="200" role="img" aria-label="Test Junkie: configurable Python test framework">
   <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1c2633" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="80%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#8b7cf6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#8b7cf6" stop-opacity="0"/>
+    </radialGradient>
+
     <style>
       .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
       .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
@@ -11,7 +19,10 @@
       @keyframes ok{0%,34%{opacity:0}38%,90%{opacity:1}100%{opacity:0}}
     </style>
   </defs>
-  <rect x="1" y="1" width="488" height="198" rx="14" fill="#0d1117" stroke="#21262d" stroke-width="1.5"/>
+  <rect width="490" height="200" rx="18" fill="#0a0e14"/>
+  <rect width="490" height="200" rx="18" fill="url(#grid)"/>
+  <rect width="490" height="200" rx="18" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="489" height="199" rx="18" fill="none" stroke="#21262d"/>
 
   <text x="24" y="34" class="sans" font-size="19" font-weight="600" fill="#e6edf3">Test Junkie</text>
   <text x="466" y="34" class="mono" font-size="12" fill="#a78bfa" text-anchor="end">python · since 2018</text>

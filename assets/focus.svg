@@ -1,5 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="Focus areas: harnesses, orchestration, context and memory">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 290" width="1000" height="290" role="img" aria-label="Focus areas: harnesses, orchestration, context and memory">
   <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1c2633" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#8b7cf6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#8b7cf6" stop-opacity="0"/>
+    </radialGradient>
+
     <style>
       .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
       .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
@@ -20,6 +28,11 @@
     <linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
     <linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="#3fb950"/><stop offset="1" stop-color="#3fb950" stop-opacity="0"/></linearGradient>
   </defs>
+  <rect width="1000" height="290" rx="18" fill="#0a0e14"/>
+  <rect width="1000" height="290" rx="18" fill="url(#grid)"/>
+  <rect width="1000" height="290" rx="18" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="999" height="289" rx="18" fill="none" stroke="#21262d"/>
+  <g transform="translate(24 20) scale(0.952)">
 
   <!-- card 1: harnesses -->
   <rect x="2" y="2" width="318" height="246" rx="14" class="card"/>
@@ -83,4 +96,5 @@
   <text x="704" y="186" class="sans d">Indexing, retrieval, and memory that</text>
   <text x="704" y="206" class="sans d">give agents the right information</text>
   <text x="704" y="226" class="sans d">and leave out the noise.</text>
+  </g>
 </svg>

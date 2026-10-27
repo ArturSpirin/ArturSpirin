@@ -19,26 +19,18 @@
 
 <br>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/ArturSpirin/pyPS4Controller"><img src="assets/project-ps4.svg" width="100%" alt="pyPS4Controller"></a>
-      <p align="center">
-        <a href="https://github.com/ArturSpirin/pyPS4Controller/stargazers"><img src="https://img.shields.io/github/stars/ArturSpirin/pyPS4Controller?style=flat-square&logo=github&label=stars&labelColor=0d1117&color=22d3ee" alt="stars"></a>
-        <a href="https://github.com/ArturSpirin/pyPS4Controller/network/members"><img src="https://img.shields.io/github/forks/ArturSpirin/pyPS4Controller?style=flat-square&label=forks&labelColor=0d1117&color=22d3ee" alt="forks"></a>
-        <a href="https://pypi.org/project/pyPS4Controller/"><img src="https://img.shields.io/pypi/v/pyPS4Controller?style=flat-square&logo=pypi&logoColor=white&label=pypi&labelColor=0d1117&color=22d3ee" alt="pypi"></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/ArturSpirin/test_junkie"><img src="assets/project-testjunkie.svg" width="100%" alt="Test Junkie"></a>
-      <p align="center">
-        <a href="https://github.com/ArturSpirin/test_junkie/stargazers"><img src="https://img.shields.io/github/stars/ArturSpirin/test_junkie?style=flat-square&logo=github&label=stars&labelColor=0d1117&color=a78bfa" alt="stars"></a>
-        <a href="https://github.com/ArturSpirin/test_junkie/network/members"><img src="https://img.shields.io/github/forks/ArturSpirin/test_junkie?style=flat-square&label=forks&labelColor=0d1117&color=a78bfa" alt="forks"></a>
-        <a href="https://www.test-junkie.com/"><img src="https://img.shields.io/badge/docs-test--junkie.com-a78bfa?style=flat-square&labelColor=0d1117" alt="docs"></a>
-      </p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/ArturSpirin/pyPS4Controller"><img src="assets/project-ps4.svg" width="49%" alt="pyPS4Controller"></a>
+  <a href="https://github.com/ArturSpirin/test_junkie"><img src="assets/project-testjunkie.svg" width="49%" alt="Test Junkie"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ArturSpirin/pyPS4Controller/stargazers"><img src="https://img.shields.io/github/stars/ArturSpirin/pyPS4Controller?style=flat-square&logo=github&label=pyPS4Controller&labelColor=0d1117&color=22d3ee" alt="pyPS4Controller stars"></a>
+  <a href="https://pypi.org/project/pyPS4Controller/"><img src="https://img.shields.io/pypi/v/pyPS4Controller?style=flat-square&logo=pypi&logoColor=white&label=pypi&labelColor=0d1117&color=22d3ee" alt="pypi"></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/ArturSpirin/test_junkie/stargazers"><img src="https://img.shields.io/github/stars/ArturSpirin/test_junkie?style=flat-square&logo=github&label=test_junkie&labelColor=0d1117&color=a78bfa" alt="Test Junkie stars"></a>
+  <a href="https://www.test-junkie.com/"><img src="https://img.shields.io/badge/docs-test--junkie.com-a78bfa?style=flat-square&labelColor=0d1117" alt="docs"></a>
+</p>
 
 ### Teaching
 
